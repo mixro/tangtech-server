@@ -35,7 +35,7 @@ const handleError = (error) => {
 }
 
 //middleware
-app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001", "https://zeal-energy.netlify.app", "https://zeal-admin.netlify.app"], credentials: true }));
+app.use(cors({ origin: ["http://localhost:3000", "http://localhost:3001", "https://tangtech.netlify.app", "https://tangtech-admin.netlify.app"], credentials: true }));
 app.use(express.json());
 
 //body parser 
