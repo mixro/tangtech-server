@@ -23,6 +23,13 @@ const serviceSchema = new mongoose.Schema(
         },
         price: {
             type: Number,
+        },
+        duration: {
+            type: String,
+        },
+        availability: {
+            type: Boolean,
+            default: true,
         }
     },
     { timestamps: true }
